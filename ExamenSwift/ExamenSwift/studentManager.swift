@@ -52,7 +52,7 @@ struct StudentManager {
         print("Alumnos:")
         
         for (i, student) in students.enumerated() {
-            print("- \(i + 1) ) \(student.fullNameInitials) \(student.name) \(student.lastName)")
+            print("- \(i + 1) ) \(student.fullNameInitials) \(student.lastName) \(student.name)")
         }
     }
     
